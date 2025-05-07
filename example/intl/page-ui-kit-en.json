@@ -1,0 +1,79 @@
+{
+  "page-ui-kit.seo.title": "OSPM UI Kit - Design System Documentation",
+  "page-ui-kit.seo.description": "Comprehensive documentation of OSPM's design system, including components, patterns, and design tokens for consistent user interface development.",
+  "page-ui-kit.seo.keywords": "ui kit, design system, components, patterns, design tokens, user interface, style guide, documentation",
+
+  "page-ui-kit.title": "UI Kit",
+  "page-ui-kit.subtitle": "Design System Documentation",
+
+  "page-ui-kit.form.first-name.label": "First name",
+  "page-ui-kit.form.first-name.placeholder": "First name",
+  "page-ui-kit.form.first-name.validation-error": "Enter your First name",
+
+  "page-ui-kit.form.last-name.label": "Last name",
+  "page-ui-kit.form.last-name.placeholder": "Family name",
+  "page-ui-kit.form.last-name.validation-error": "Enter your Family name",
+
+  "page-ui-kit.form.email.label": "Email",
+  "page-ui-kit.form.email.placeholder": "user@gmail.com",
+  "page-ui-kit.form.email.validation-error": "Enter a valid email address",
+
+  "page-ui-kit.form.country.label": "Country",
+  "page-ui-kit.form.country.placeholder": "Country",
+  "page-ui-kit.form.country.validation-error": "Enter your country",
+
+  "page-ui-kit.form.phone.label": "Phone",
+  "page-ui-kit.form.phone.validation-error": "Enter your phone number",
+  "page-ui-kit.form.phone.search-label": "Country code",
+  "page-ui-kit.form.phone.search-placeholder": "Search",
+
+  "page-ui-kit.form.password.label": "Password",
+  "page-ui-kit.form.password.placeholder": "••••••••",
+  "page-ui-kit.form.password.validation-error": "Enter a valid password",
+
+  "page-ui-kit.form.password-confirm.label": "Confirm password",
+  "page-ui-kit.form.password-confirm.placeholder": "••••••••",
+  "page-ui-kit.form.password-confirm.validation-error": "Confirm your password",
+
+  "page-ui-kit.form.hint.password-hint": "Security policy requires a strong password:",
+  "page-ui-kit.form.hint.digit-hint": "at least one digit",
+  "page-ui-kit.form.hint.length-hint": "minimum length 8 characters",
+  "page-ui-kit.form.hint.capital-hint": "at least one capital letter",
+  "page-ui-kit.form.hint.capslock-hint": "Caps lock enabled",
+  "page-ui-kit.form.hint.lowercase-hint": "at least one lower case letter",
+  "page-ui-kit.form.hint.notequal-hint": "Passwords entered do not match",
+  "page-ui-kit.form.hint.countrynotselected-hint": "Enter your country",
+  "page-ui-kit.form.hint.specialcharacter-hint": "at least one special character",
+
+  "page-ui-kit.form.message.label": "Message",
+  "page-ui-kit.form.message.placeholder": "...",
+  "page-ui-kit.form.message.validation-error": "Enter your message",
+
+  "page-ui-kit.form.subject.label": "Subject",
+  "page-ui-kit.form.subject.feedback": "Feedback",
+  "page-ui-kit.form.subject.general": "General",
+  "page-ui-kit.form.subject.security": "Security",
+  "page-ui-kit.form.subject.more-information": "More information",
+  "page-ui-kit.form.subject.validation-error": "Enter a subject",
+  "page-ui-kit.form.subject.user-account": "User account",
+
+  "page-ui-kit.agreement.label": "I agree with <terms>Terms of Service</terms> and <privacy>Privacy Policy</privacy>",
+  "page-ui-kit.agreement.validation-error": "Please agree with our terms of service",
+
+  "page-ui-kit.form.date-picker-time-picker.title": "Date and Time Picker",
+  "page-ui-kit.form.date-picker-time-picker.label": "Select date and time",
+
+  "page-ui-kit.form.date-picker.title": "Date Picker",
+  "page-ui-kit.form.date-picker.label": "Select date",
+
+  "page-ui-kit.form.range-picker.title": "Range Picker",
+  "page-ui-kit.form.range-picker.label": "Select date range",
+
+  "page-ui-kit.form.range-picker-time-picker.title": "Date and Time Range Picker",
+  "page-ui-kit.form.range-picker-time-picker.label": "Select date and time range",
+
+  "page-ui-kit.form.timezone.label": "Select your time zone",
+
+  "page-ui-kit.icons.title": "Icons",
+  "page-ui-kit.icons.old-title": "Old icons"
+}

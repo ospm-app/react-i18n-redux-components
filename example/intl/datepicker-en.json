@@ -1,0 +1,11 @@
+{
+  "date-picker-am-pm-label": "AM/PM",
+  "date-picker-hours-label": "Hours:",
+  "date-picker-minutes-label": "Minutes:",
+  "date-picker-hours-format-label": "Hours format:",
+
+  "date-picker-time-picker.label": "Date Time picker",
+
+  "range-picker-time-picker.label": "Range Date and Time picker",
+  "range-picker-time-picker.title": "Range Date and Time picker"
+}

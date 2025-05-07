@@ -1,0 +1,11 @@
+{
+  "date-picker-am-pm-label": "AM/PM",
+  "date-picker-hours-label": "Часы:",
+  "date-picker-minutes-label": "Минуты:",
+  "date-picker-hours-format-label": "Формат часов:",
+
+  "date-picker-time-picker.label": "Дата и время",
+
+  "range-picker-time-picker.label": "Диапазон даты и времени",
+  "range-picker-time-picker.title": "Диапазон даты и времени"
+}

@@ -1,0 +1,10 @@
+{
+  "en": {
+    "welcome": "Welcome to the Home Page!",
+    "switch_language": "Switch Language"
+  },
+  "fr": {
+    "welcome": "Bienvenue sur la page d'accueil !",
+    "switch_language": "Changer de langue"
+  }
+}

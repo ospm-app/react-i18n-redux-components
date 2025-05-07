@@ -1,0 +1,78 @@
+{
+  "page-ui-kit.seo.title": "page-ui-kit.seo.title",
+  "page-ui-kit.seo.description": "page-ui-kit.seo.description",
+  "page-ui-kit.seo.keywords": "page-ui-kit.seo.keywords",
+
+  "page-ui-kit.title": "page-ui-kit.title",
+  "page-ui-kit.subtitle": "page-ui-kit.subtitle",
+
+  "page-ui-kit.form.first-name.label": "page-ui-kit.form.first-name.label",
+  "page-ui-kit.form.first-name.placeholder": "page-ui-kit.form.first-name.placeholder",
+  "page-ui-kit.form.first-name.validation-error": "page-ui-kit.form.first-name.validation-error",
+
+  "page-ui-kit.form.last-name.label": "page-ui-kit.form.last-name.label",
+  "page-ui-kit.form.last-name.placeholder": "page-ui-kit.form.last-name.placeholder",
+  "page-ui-kit.form.last-name.validation-error": "page-ui-kit.form.last-name.validation-error",
+
+  "page-ui-kit.form.email.label": "page-ui-kit.form.email.label",
+  "page-ui-kit.form.email.placeholder": "page-ui-kit.form.email.placeholder",
+  "page-ui-kit.form.email.validation-error": "page-ui-kit.form.email.validation-error",
+
+  "page-ui-kit.form.country.label": "page-ui-kit.form.country.label",
+  "page-ui-kit.form.country.placeholder": "page-ui-kit.form.country.placeholder",
+  "page-ui-kit.form.country.validation-error": "page-ui-kit.form.country.validation-error",
+
+  "page-ui-kit.form.phone.label": "page-ui-kit.form.phone.label",
+  "page-ui-kit.form.phone.validation-error": "page-ui-kit.form.phone.validation-error",
+  "page-ui-kit.form.phone.search-label": "page-ui-kit.form.phone.search-label",
+  "page-ui-kit.form.phone.search-placeholder": "page-ui-kit.form.phone.search-placeholder",
+
+  "page-ui-kit.form.password.label": "page-ui-kit.form.password.label",
+  "page-ui-kit.form.password.placeholder": "page-ui-kit.form.password.placeholder",
+  "page-ui-kit.form.password.validation-error": "page-ui-kit.form.password.validation-error",
+  "page-ui-kit.form.password-confirm.label": "page-ui-kit.form.password-confirm.label",
+  "page-ui-kit.form.password-confirm.placeholder": "page-ui-kit.form.password-confirm.placeholder",
+  "page-ui-kit.form.password-confirm.validation-error": "page-ui-kit.form.password-confirm.validation-error",
+
+  "page-ui-kit.form.hint.password-hint": "page-ui-kit.form.hint.password-hint",
+  "page-ui-kit.form.hint.digit-hint": "page-ui-kit.form.hint.digit-hint",
+  "page-ui-kit.form.hint.length-hint": "page-ui-kit.form.hint.length-hint",
+  "page-ui-kit.form.hint.capital-hint": "page-ui-kit.form.hint.capital-hint",
+  "page-ui-kit.form.hint.capslock-hint": "page-ui-kit.form.hint.capslock-hint",
+  "page-ui-kit.form.hint.lowercase-hint": "page-ui-kit.form.hint.lowercase-hint",
+  "page-ui-kit.form.hint.notequal-hint": "page-ui-kit.form.hint.notequal-hint",
+  "page-ui-kit.form.hint.countrynotselected-hint": "page-ui-kit.form.hint.countrynotselected-hint",
+  "page-ui-kit.form.hint.specialcharacter-hint": "page-ui-kit.form.hint.specialcharacter-hint",
+
+  "page-ui-kit.form.message.label": "page-ui-kit.form.message.label",
+  "page-ui-kit.form.message.placeholder": "page-ui-kit.form.message.placeholder",
+  "page-ui-kit.form.message.validation-error": "page-ui-kit.form.message.validation-error",
+
+  "page-ui-kit.form.subject.label": "page-ui-kit.subject.label",
+  "page-ui-kit.form.subject.feedback": "page-ui-kit.subject.feedback",
+  "page-ui-kit.form.subject.general": "page-ui-kit.subject.general",
+  "page-ui-kit.form.subject.security": "page-ui-kit.subject.security",
+  "page-ui-kit.form.subject.user-account": "page-ui-kit.subject.user-account",
+  "page-ui-kit.form.subject.more-information": "page-ui-kit.subject.more-information",
+  "page-ui-kit.form.subject.validation-error": "page-ui-kit.subject.validation-error",
+
+  "page-ui-kit.agreement.label": "page-ui-kit.agreement.label",
+  "page-ui-kit.agreement.validation-error": "page-ui-kit.agreement.validation-error",
+
+  "page-ui-kit.form.date-picker-time-picker.title": "page-ui-kit.form.date-picker-time-picker.title",
+  "page-ui-kit.form.date-picker-time-picker.label": "page-ui-kit.form.date-picker-time-picker.label",
+
+  "page-ui-kit.form.date-picker.title": "page-ui-kit.form.date-picker.title",
+  "page-ui-kit.form.date-picker.label": "page-ui-kit.form.date-picker.label",
+
+  "page-ui-kit.form.range-picker.title": "page-ui-kit.form.range-picker.title",
+  "page-ui-kit.form.range-picker.label": "page-ui-kit.form.range-picker.label",
+
+  "page-ui-kit.form.range-picker-time-picker.title": "page-ui-kit.form.range-picker-time-picker.title",
+  "page-ui-kit.form.range-picker-time-picker.label": "page-ui-kit.form.range-picker-time-picker.label",
+
+  "page-ui-kit.form.timezone.label": "page-ui-kit.form.timezone.label",
+
+  "page-ui-kit.icons.title": "page-ui-kit.icons.title",
+  "page-ui-kit.icons.old-title": "page-ui-kit.icons.old-title"
+}

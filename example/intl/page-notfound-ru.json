@@ -1,0 +1,10 @@
+{
+  "page-notfound.seo.title": "Страница не найдена - Ошибка 404 - OSPM",
+  "page-notfound.seo.description": "Запрашиваемая страница не найдена на OSPM. Вернитесь на главную страницу, чтобы продолжить работу с пакетами с открытым исходным кодом.",
+  "page-notfound.seo.keywords": "ошибка 404, страница не найдена, ospm ошибка, отсутствующая страница",
+
+  "page-notfound.title": "Страница не найдена",
+  "page-notfound.subtitle": "404",
+
+  "page-notfound.home-link-label": "Вернуться на главную"
+}

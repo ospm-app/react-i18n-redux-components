@@ -1,0 +1,10 @@
+{
+  "page-notfound.seo.title": "Page Not Found - 404 Error - OSPM",
+  "page-notfound.seo.description": "The requested page could not be found on OSPM. Return to our homepage to continue exploring open source packages.",
+  "page-notfound.seo.keywords": "404 error, page not found, ospm error, missing page",
+
+  "page-notfound.title": "Page Not Found",
+  "page-notfound.subtitle": "404",
+
+  "page-notfound.home-link-label": "Return to Homepage"
+}

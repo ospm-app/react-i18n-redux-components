@@ -1,0 +1,189 @@
+import {
+  memo,
+  useId,
+  type JSX,
+  useCallback,
+  type RefObject,
+  type ComponentType,
+  type KeyboardEventHandler,
+} from 'react';
+import { shallowEqual } from 'react-redux';
+
+import { SelectResponsive } from 'library/intl/select-responsive/index.tsx';
+
+import { validateInput } from 'state/reducers/forms.ts';
+import {
+  useAppDispatch,
+  useAppSelector,
+  type ReduxState,
+} from 'state/store.ts';
+
+import type { SelectOptionIntl } from 'library/types.ts';
+import type { IntlMessageId } from 'const/intl/index.ts';
+import type { UiKitSubjectField } from 'state/reducers/forms/ui-kit.ts';
+
+type SelectorProps = {
+  disabled: boolean;
+  field: UiKitSubjectField;
+};
+
+type Props = {
+  label: IntlMessageId;
+  divClassName: string;
+  listClassName: string;
+  labelClassName: string;
+  validClassName: string;
+  hiddenClassName: string;
+  optionClassName: string;
+  selectClassName: string;
+  invalidClassName: string;
+  selectDivClassName: string;
+  inputTouchedClassName: string;
+  readonlyInputClassName: string;
+  inputUnTouchedClassName: string;
+  selectButtonIconClassName: string;
+  errorClassName?: string | undefined;
+  description?: IntlMessageId | undefined;
+  errorMessage?: IntlMessageId | undefined;
+  descriptionClassName?: string | undefined;
+  inputRef?: RefObject<HTMLInputElement | null> | undefined;
+  nextInputRef?: RefObject<HTMLTextAreaElement | null> | undefined;
+  selectRef?: RefObject<HTMLSelectElement | null> | undefined;
+  options: ReadonlyArray<SelectOptionIntl<IntlMessageId | undefined>>;
+};
+
+function select({
+  forms: {
+    uiKit: { isFetching, subject },
+  },
+}: ReduxState): SelectorProps {
+  return {
+    disabled: isFetching,
+    field: subject,
+  };
+}
+
+function F_SelectSubject({
+  label,
+  options,
+  inputRef,
+  selectRef,
+  description,
+  nextInputRef,
+  divClassName,
+  errorMessage,
+  listClassName,
+  labelClassName,
+  validClassName,
+  selectClassName,
+  optionClassName,
+  hiddenClassName,
+  invalidClassName,
+  selectDivClassName,
+  inputTouchedClassName,
+  readonlyInputClassName,
+  inputUnTouchedClassName,
+  selectButtonIconClassName,
+  errorClassName = hiddenClassName,
+  descriptionClassName = hiddenClassName,
+}: Props): JSX.Element {
+  const id = useId();
+
+  const dispatch = useAppDispatch();
+
+  const { disabled, field } = useAppSelector<SelectorProps>(
+    select,
+    shallowEqual
+  );
+
+  const onBlur = useCallback<() => void>(() => {
+    dispatch(
+      validateInput({
+        path: field.path,
+        value: field.value,
+        valid: typeof field.value !== 'undefined',
+        invalid: typeof field.value === 'undefined',
+      })
+    );
+  }, [dispatch, field.path, field.value]);
+
+  const onFocus = useCallback<
+    (value: IntlMessageId | undefined, field: UiKitSubjectField) => void
+  >(
+    (value, field): void => {
+      if (field.isTouched) {
+        dispatch(
+          validateInput({
+            path: field.path,
+            value,
+            valid: false,
+            invalid: false,
+          })
+        );
+      }
+    },
+    [dispatch]
+  );
+
+  const onInputKeyDown = useCallback<KeyboardEventHandler<HTMLInputElement>>(
+    (event): void => {
+      event.stopPropagation();
+
+      if (event.key === 'Tab') {
+        event.preventDefault();
+
+        nextInputRef?.current?.focus();
+      }
+    },
+    [nextInputRef]
+  );
+
+  const onSelectKeyDown = useCallback<KeyboardEventHandler<HTMLSelectElement>>(
+    (event): void => {
+      event.stopPropagation();
+
+      if (event.key === 'Tab') {
+        event.preventDefault();
+
+        nextInputRef?.current?.focus();
+      }
+    },
+    [nextInputRef]
+  );
+
+  return (
+    <SelectResponsive<IntlMessageId | undefined, 'uiKit', 'subject'>
+      id={id}
+      label={label}
+      field={field}
+      onBlur={onBlur}
+      name={'subject'}
+      options={options}
+      onFocus={onFocus}
+      disabled={disabled}
+      inputRef={inputRef}
+      selectRef={selectRef}
+      description={description}
+      divClassName={divClassName}
+      errorMessage={errorMessage}
+      listClassName={listClassName}
+      errorClassName={errorClassName}
+      labelClassName={labelClassName}
+      validClassName={validClassName}
+      onInputKeyDown={onInputKeyDown}
+      hiddenClassName={hiddenClassName}
+      selectClassName={selectClassName}
+      optionClassName={optionClassName}
+      onSelectKeyDown={onSelectKeyDown}
+      invalidClassName={invalidClassName}
+      selectDivClassName={selectDivClassName}
+      descriptionClassName={descriptionClassName}
+      inputTouchedClassName={inputTouchedClassName}
+      readonlyInputClassName={readonlyInputClassName}
+      inputUnTouchedClassName={inputUnTouchedClassName}
+      selectButtonIconClassName={selectButtonIconClassName}
+    />
+  );
+}
+
+export const SelectSubject: ComponentType<Props> = memo<Props>(F_SelectSubject);

@@ -1,0 +1,6 @@
+{
+  "layout.offline.message": "You are offline",
+  "layout.scrollToTop.label": "Scroll To Top",
+  "layout.userBar.incompleteProfileMessage": "Please fill required information in your <a>profile</a>",
+  "layout.resend-verification-email-button-label": "Resend verification email"
+}

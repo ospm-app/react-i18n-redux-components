@@ -1,0 +1,79 @@
+{
+  "page-ui-kit.seo.title": "OSPM UI Kit - Документация системы дизайна",
+  "page-ui-kit.seo.description": "Полная документация системы дизайна OSPM, включая компоненты, паттерны и дизайн-токены для разработки согласованного пользовательского интерфейса.",
+  "page-ui-kit.seo.keywords": "ui kit, система дизайна, компоненты, паттерны, дизайн-токены, пользовательский интерфейс, руководство по стилю, документация",
+
+  "page-ui-kit.title": "UI Kit",
+  "page-ui-kit.subtitle": "Документация системы дизайна",
+
+  "page-ui-kit.form.first-name.label": "Имя",
+  "page-ui-kit.form.first-name.placeholder": "Имя",
+  "page-ui-kit.form.first-name.validation-error": "Введите ваше имя",
+
+  "page-ui-kit.form.last-name.label": "Фамилия",
+  "page-ui-kit.form.last-name.placeholder": "Фамилия",
+  "page-ui-kit.form.last-name.validation-error": "Введите вашу Фамилию",
+
+  "page-ui-kit.form.email.label": "Email",
+  "page-ui-kit.form.email.placeholder": "user@gmail.com",
+  "page-ui-kit.form.email.validation-error": "Введите правильный адрес электронной почты",
+
+  "page-ui-kit.form.country.label": "Страна",
+  "page-ui-kit.form.country.placeholder": "Страна",
+  "page-ui-kit.form.country.validation-error": "Введите вашу страну",
+
+  "page-ui-kit.form.phone.label": "Телефон",
+  "page-ui-kit.form.phone.validation-error": "Введите ваш телефонный номер",
+  "page-ui-kit.form.phone.search-label": "Код страны",
+  "page-ui-kit.form.phone.search-placeholder": "Поиск",
+
+  "page-ui-kit.form.password.label": "Пароль",
+  "page-ui-kit.form.password.placeholder": "••••••••",
+  "page-ui-kit.form.password.validation-error": "Введите правильный пароль",
+
+  "page-ui-kit.form.password-confirm.label": "Подтвердите пароль",
+  "page-ui-kit.form.password-confirm.placeholder": "••••••••",
+  "page-ui-kit.form.password-confirm.validation-error": "Подтвердите свой пароль",
+
+  "page-ui-kit.form.hint.password-hint": "Политика безопасности требует надежного пароля:",
+  "page-ui-kit.form.hint.digit-hint": "хотя бы одна цифра",
+  "page-ui-kit.form.hint.length-hint": "минимальная длина 8 символов",
+  "page-ui-kit.form.hint.capital-hint": "хотя бы одна заглавная буква",
+  "page-ui-kit.form.hint.capslock-hint": "Caps lock включен",
+  "page-ui-kit.form.hint.lowercase-hint": "хотя бы одна строчная буква",
+  "page-ui-kit.form.hint.notequal-hint": "Введенные пароли не совпадают",
+  "page-ui-kit.form.hint.countrynotselected-hint": "Введите вашу страну",
+  "page-ui-kit.form.hint.specialcharacter-hint": "хотя бы один специальный символ",
+
+  "page-ui-kit.form.message.label": "Сообщение",
+  "page-ui-kit.form.message.placeholder": "...",
+  "page-ui-kit.form.message.validation-error": "Введите ваше сообщение",
+
+  "page-ui-kit.form.subject.label": "Тема",
+  "page-ui-kit.form.subject.feedback": "Обратная связь",
+  "page-ui-kit.form.subject.general": "Общие вопросы",
+  "page-ui-kit.form.subject.security": "Безопасность",
+  "page-ui-kit.form.subject.user-account": "Учётная запись",
+  "page-ui-kit.form.subject.more-information": "Больше информации",
+  "page-ui-kit.form.subject.validation-error": "Введите тему",
+
+  "page-ui-kit.agreement.label": "Я согласен с <terms>Условиями использования</terms> и <privacy>Политикой конфиденциальности</privacy>",
+  "page-ui-kit.agreement.validation-error": "Пожалуйста примите условия использования",
+
+  "page-ui-kit.form.date-picker-time-picker.title": "Date and Time Picker",
+  "page-ui-kit.form.date-picker-time-picker.label": "Выберите дату и время",
+
+  "page-ui-kit.form.date-picker.title": "Date Picker",
+  "page-ui-kit.form.date-picker.label": "Выберите дату",
+
+  "page-ui-kit.form.range-picker.title": "Range Picker",
+  "page-ui-kit.form.range-picker.label": "Выберите дату диапазона",
+
+  "page-ui-kit.form.range-picker-time-picker.title": "Date and Time Range Picker",
+  "page-ui-kit.form.range-picker-time-picker.label": "Выберите дату и время диапазона",
+
+  "page-ui-kit.form.timezone.label": "Выберите ваш часовой пояс",
+
+  "page-ui-kit.icons.title": "Иконки",
+  "page-ui-kit.icons.old-title": "Старые иконки"
+}

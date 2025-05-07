@@ -1,0 +1,1 @@
+{"root":["./.react-router/types/+register.ts","./.react-router/types/+virtual.d.ts","./.react-router/types/app/+types/root.ts","./.react-router/types/app/routes/+types/home.ts","./app/entry.server.tsx","./app/i18n.ts","./app/root.tsx","./app/routes.ts","./app/routes/home.tsx","./app/welcome/welcome.tsx","./workers/app.ts","./worker-configuration.d.ts"],"version":"5.8.3"}

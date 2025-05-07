@@ -1,0 +1,6 @@
+{
+  "layout.offline.message": "Соединение с интернетом прервано",
+  "layout.scrollToTop.label": "На верх",
+  "layout.userBar.incompleteProfileMessage": "Пожалуйста заполните недостающую информацию в <a>профайле</a>",
+  "layout.resend-verification-email-button-label": "Отправить Верификационное письмо"
+}
