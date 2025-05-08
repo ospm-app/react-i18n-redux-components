@@ -6,8 +6,10 @@
     "app/**/.server/**/*",
     "app/**/.client/**/*",
     "workers/**/*",
+    "tailwind.config.ts",
     "worker-configuration.d.ts"
   ],
+  "exclude": ["./node_modules", "./public", "./.cache", "./build"],
   "files": [],
   "compilerOptions": {
     "checkJs": true,
@@ -19,6 +21,7 @@
       "node",
       "react",
       "react-dom",
+      "react-redux",
       "@cloudflare/workers-types",
       "vite/client"
     ],
@@ -30,7 +33,18 @@
     "baseUrl": ".",
     "rootDirs": [".", "./.react-router/types"],
     "paths": {
-      "~/*": ["./app/*"]
+      "~/*": ["./app/*"],
+      "components/*": ["./app/components/*"],
+      "templates/*": ["./app/templates/*"],
+      "library/*": ["./app/library/*"],
+      "styles/*": ["./app/styles/*"],
+      "utils/*": ["./app/utils/*"],
+      "const/*": ["./app/const/*"],
+      "state/*": ["./app/state/*"],
+      "types/*": ["./app/types/*"],
+      "layout/*": ["./app/layout/*"],
+      "head/*": ["./app/head/*"],
+      "context/*": ["./app/context/*"],
     },
     "esModuleInterop": true,
     "resolveJsonModule": true

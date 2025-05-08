@@ -62,7 +62,7 @@ async function main(): Promise<void | Array<unknown>> {
       ]).then((list) => {
         const filePath = path.join(
           __dirname,
-          `/../../app/const/intl/${locale}.json`
+          `/../app/const/intl/${locale}.json`
         );
 
         const buffer = Buffer.from(

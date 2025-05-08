@@ -8,7 +8,7 @@ import {
 } from 'react-redux';
 
 import { reducer } from 'state/reducers/index.ts';
-import { VITE_ENV } from 'app/env.ts';
+import { VITE_ENV } from '../env.ts';
 
 export const store = configureStore({
   reducer,
